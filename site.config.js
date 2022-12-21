@@ -2,7 +2,7 @@ export default {
   clientId: 466,
   roomURL: 'https://room.loongsonedu.cn',
   logo: 'https://ssl.cdn.maodouketang.com/FsELfTn2KhwjVxKpABQGhyoR-IbH',
-  title: '龙芯开源技术开发者社区',
+  title: '龙芯直播课堂',
   subTitle: '促进龙芯开源技术的教学、研究与产业的发展',
   footer: {
     resources: [
