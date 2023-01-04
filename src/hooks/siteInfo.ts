@@ -7,8 +7,10 @@ export const useSiteInfo = () => {
 
   const init = useCallback(async () => {
     const res = await getSiteConfig()
+    if(res) {
+      setConfig(res)
+    }
     setLoading(false)
-    setConfig(res)
   }, [])
 
   useEffect(() => {
