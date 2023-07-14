@@ -7,7 +7,7 @@ const PAGE_SIZE = 2000
 export async function getSiteConfig() {
   const res = await request<never, any[]>('/seller/api/homepages', {
     params: {
-      clientId: CLIENT_ID
+      clientID: CLIENT_ID
     }
   })
   return res[0]
